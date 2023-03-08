@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px auto;
+        }
+
+        .wrapper {
+            height: 700px;
+            width: 1300px;
+            background-color: #FFFFFF;
+        }
+
+        header {
+            height: 100px;
+            width: 1300px;
+            background-color: rgb(41, 78, 122);
+            position: relative;
+        }
+        img1 {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+        .img2 {
+            border: 1px solid red;
+            border-radius: 3px 3px;
+        }
+        
+        .p1 {
+            position: absolute;
+            top: 20px;
+            left: 40px;
+            color: whitesmoke;
+            font-size: 20px;
+            text-shadow: 5px 5px 10px red;
+        }
+        .p2 {
+            position: absolute;
+            top: 40px;
+            left: 40px;
+            color: whitesmoke;
+            font-size: 15px;
+            text-shadow: 5px 5px 10px red;
+        }
+        #frm1 {
+            top: 10px;
+            right: 20px;
+            position: absolute;
+            display: inline-flex;
+            margin-left: 3px;
+        }
+        .top-menu li {
+            width: 125px;
+            height: 50px;
+            background-color: rgb(61, 115, 177);
+            list-style: none;
+            top: 40px;
+            right: 30px;
+            position: absolute;
+            border: 0px solid rgb(61, 115, 177);
+            line-height: 50px;
+            text-indent: 20px;
+        }
+        .top-menu li:nth-child(1) { 
+            top: 48px;
+            left: 70px;
+        }
+
+        .top-menu li:nth-child(2) { 
+            top: 48px;
+            left: 330px;
+        }
+        .top-menu li:nth-child(3) { 
+            top: 48px;
+            left: 590px;
+        }
+        .top-menu li:nth-child(4) {
+            top: 48px;
+            left: 850px;
+        } 
+
+        .top-menu li:nth-child(5) {
+            top: 48px;
+            left: 1120px;
+        }
+        .c1
+        {
+            position: absolute;
+            width: auto;
+            text-align: left;
+            height: 50px;
+            top: 150px;
+            left: 350px;
+        }
+        .c2
+        {
+            position: absolute;
+            width: 400px;
+            text-align: left;
+            height: 50px;
+            top: 200px;
+            left: 350px;
+            text-shadow: 2px 2px green;
+        }
+        .c3
+        {
+            position: absolute;
+            width: 400px;
+            text-align: left;
+            height: 50px;
+            top: 270px;
+            left: 300px;
+        }
+        .c4
+        {
+            position: absolute;
+            width: 290px;
+            text-align: left;
+            height: 50px;
+            top: 200px;
+            left: 750px;
+        }
+        .c5
+        {
+            position: absolute;
+            width: 310px;
+            text-align: left;
+            height: 300px;
+            top: 150px;
+            left: 1100px;
+            background-color: #F9F9F9;
+        }
+        form.form-example {
+            display: table;
+        }
+
+        div.form-example {
+            display: table-row;
+        }
+
+        label,
+        input {
+            display: table-cell;
+            margin-bottom: 12px;
+        }
+
+        label {
+            padding-right: 10px;
+        }
+        li a {
+            text-decoration: none;
+            color: white;
+        }
+        footer {
+        position: relative;
+        left: 0;
+        bottom: 0;
+        width: 1300px ;
+        background-color: #1C3451;
+        color: white;
+        text-align: left;
+        }
+        </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <img src="../img/hoa.jpg" alt="" srcset="" id="img1">
+            <p class="p1">
+                
+            </p>
+            <p class="p2">
+
+            </p>
+        <form action="" method="get" id="frm1">
+            <input type="text" placeholder="Search the site..." name="" id="">
+            <button type="submit">Tim</button> 
+        </form>
+        <ul class="top-menu">
+            <li><a href="">Home</a></li> 
+            <li><a href="">Promotion</a></li> 
+            <li><a href="">Gift Baskets</a></li>
+            <li><a href="">Flower Services</a></li> 
+            <li><a href="">Abouts</a></li>
+        </ul>
+        </header>
+        <div class="content">
+            <div class="c1">
+            <span style="font-size:160%;">Why not contact us today!</span>
+            <div>---------------------------------------------------------------------------------------------------------------------------------</div>
+            </div>
+            <div class="c2"><i style="color:red;">
+                For FlowerBox 360 shoppers, that means not only can you send your friends and loved ones the highest quality flowers found on online, but that you can do so at a great value.
+            </i></div>
+        </div>            
+        <div class="c3">
+            <form action="" method="get" class="form-example">
+                <div class="form-example">
+                    <label for="name">name: </label>
+                    <input type="text" name="name" id="name" required>
+                </div>
+                <div class="form-example">
+                    <label for="email">email: </label>
+                    <input type="text" name="email" id="email" required>
+                </div>
+                <div class="form-example">
+                    <label for="email">telephone: </label>
+                    <input type="text" name="telephone" id="telephone" required>
+                </div>
+                <div class="form-example">
+                    <label for="email">subject: </label>
+                    <input type="text" name="subject" id="subject" required>
+                </div>
+                <div class="form-example">
+                    <label for="email">message: </label>
+                    <input type="text" name="message" id="message" required>
+                </div>
+                <div class="form-example">
+                  <input type="submit" value="submit">
+                </div>
+                <div class="form-example">
+                    <input type="reset" value="reset">
+                  </div>
+              </form>
+        </div>
+        <div class="c4">
+            <span style="font-size:160%;">FlowerBox 360 Info!</span>
+            <div>------------------------------------------------------</div>
+            <div>
+                Operating Hours:
+                <p>Monday-Friday: 9.00am-5.00pm.</p>
+                <p>Saturday:9.00am-1.00prn. </p>
+                <p>Sunday: Closed (No Deliveries) </p>
+                <p>ORDER ONLINE 24/7 </p>
+
+                <p>
+                Software Engineering Dept. 
+                Information Technology Falcuty First Floor, H Building</p>
+                <p> </p> 
+                12 Nguyen Van Bao St., Ward 4 </p>
+                Go Vap District </p>
+                Ho Chi Minh City </p>
+                Tel: 0283 8940 390 </p>
+                Fax: 0283.9940 954 </p>
+            </div>
+        </div>
+        <div class="c5">
+            <span style="font-size:160%;">Discounts & Specials</span>
+            <p>------------------------------------------------------</p>
+            <img class="img2" src="../img/hoa1.jpg" alt="" srcset="" id="img2">
+            <p>FlowerBox 360 offers many great discounts throughout the year, from coupons and coupon codes, to promo codes and other savings. We also offer military flower discounts to our wonderful troops!</p>
+        </div>
+    </div>
+</body>
+<div class="footer">
+    <footer>
+        <p style="color:white;">Copyright © 2017 - All Rights Reserved -<span style="color:blue";> Software Engineering Department - Industrial University of Ho Chi Minh City</span></p>
+    </footer>
+</div>
+
+</html>
